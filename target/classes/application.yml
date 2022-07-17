@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: security
+  main:
+    allow-circular-references: true
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///security?useSSL=false
+    username: root
+    password: 1234
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
